@@ -3,7 +3,6 @@ import 'package:http/http.dart' as http;
 import 'package:newsapp_project/models/articlemodel.dart';
 class News
 {
-
   List<ArticleModel> news = [];
   Future<void> getNews() async{
       String url="https://newsapi.org/v2/top-headlines?country=in&apiKey=fe786372b9ad4b4db8fb363e8c284d96";
@@ -20,6 +19,7 @@ class News
               url: ele["url"],
               urlToImage: ele["urlToImage"],
               content: ele["content"],
+
             );
             news.add(articleModel);
         }
@@ -54,10 +54,7 @@ class NewsForCategory {
           );
           news.add(article);
         }
-
       });
     }
-
-
   } 
 }

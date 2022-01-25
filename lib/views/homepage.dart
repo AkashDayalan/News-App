@@ -1,5 +1,3 @@
-// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers, sized_box_for_whitespace, prefer_const_constructors_in_immutables
-
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 /*import 'package:newsapp/assets/extras.dart';
