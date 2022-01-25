@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import, prefer_typing_uninitialized_variables, prefer_const_constructors, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers
+
 import 'package:flutter/material.dart';
 import 'package:newsapp_project/assets/news.dart';
 import 'package:newsapp_project/models/articlemodel.dart';
@@ -22,6 +24,7 @@ class _CategoryNewsState extends State<CategoryNews> {
   @override
   void initState() {
     getNews();
+    // ignore: todo
     // TODO: implement initState
     super.initState();
   }
